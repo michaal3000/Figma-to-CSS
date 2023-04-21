@@ -1,0 +1,168 @@
+/* ************************
+FIGMA FILE LINK:https://www.figma.com/file/GwRmx1FJ31evTNq6hpCpCs/Amazing-Mountain?node-id=2-9&t=jL0Rj0pDet1xlD9S-0
+************************ */
+
+:root {
+  --primary-color: #f70058;
+  --secondary-color: #0c0e36;
+  --paragraph-color: #3a3a3a;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap");
+body {
+  background-image: url("https://images.unsplash.com/photo-1551524559-8af4e6624178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 83px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+#title {
+  position: absolute;
+  color: var(--secondary-color);
+  font-weight: 900;
+  font-size: 18px;
+  left: 196px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 630px;
+  height: 83px;
+  margin: 0;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 30px;
+}
+
+.weather-container {
+  position: relative;
+  right: 0;
+  display: flex;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  height: 83px;
+  width: 75px;
+}
+
+.icon-box i {
+  font-size: 35px;
+  color: white;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  width: 248px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.weather p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  margin-left: 9px;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+
+.weather span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 13px;
+  color: #ffffff;
+}
+
+.line {
+  opacity: 0.3;
+  border: 1px solid #8a8a9d;
+}
+
+.main {
+  position: relative;
+  top: 268px;
+  left: 196px;
+}
+
+.main h1 {
+  max-width: 538px;
+  max-height: 116px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  color: var(--secondary-color);
+}
+
+.main p {
+  max-width: 538px;
+  max-height: 117px;
+  color: var(--paragraph-color);
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#season-pass {
+  background: var(--primary-color);
+  width: 240px;
+  height: 49px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#get-tickets {
+  box-sizing: border-box;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #f70058;
+  padding: 10px 27px;
+  background: transparent;
+  border: 5px solid var(--primary-color);
+}
